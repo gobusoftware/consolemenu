@@ -1,14 +1,3 @@
-# consolemenu
-
-a simple console menu library base lua
-
-need library https://github.com/kikito/middleclass
-
-
-![](https://raw.githubusercontent.com/gobusoftware/consolemenu/main/2021-09-28_16-58.png)
-
-usage:
-```lua
 local Menu = require 'consolemenu'
 
 main_menu = Menu:new("MainMenu")
@@ -61,5 +50,3 @@ main_menu:initMenu({
 
 main_menu:showMenu()
 main_menu:loop()
-
-```
